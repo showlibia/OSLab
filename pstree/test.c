@@ -1,3 +1,5 @@
+#Test Main function passing parameters
+
 #include <stdio.h>
 #include <assert.h>
 
