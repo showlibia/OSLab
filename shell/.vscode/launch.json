@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}", // 调试的程序路径
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build" // 调试前运行的任务
+        }
+    ]
+}
